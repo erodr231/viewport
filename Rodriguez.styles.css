@@ -312,11 +312,13 @@ section{
 
 
 /* ---------- ADJUSTING RESPONSIVE IMAGE SIZE ---------- */
+/* I added percentages rather than pixels to make all the images responsive.*/
 /* --------------- BEGIN RESPONSIVE IMAGE ADJUST SIZES --------------- */
-    /* img{
-        width: 300px;
-        max-width: 300px;
-    } */
+    img{
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    } 
 /* --------------- END RESPONSIVE IMAGE ADJUST SIZES --------------- */
 
 
